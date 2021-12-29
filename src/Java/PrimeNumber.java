@@ -8,8 +8,6 @@ public class PrimeNumber {
 			if(no%i==0) {
 
 				flag=false;
-
-
 			}
 			if(flag==true) {
 				System.out.println("it is prime no");

@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	int Sum=0;
 	for(int i=0;i<s.length();i++) {
 		if(s.charAt(i)>=48 && s.charAt(i)<=57) {
-			int n=s.charAt(i)-48;
+			int n=s.charAt(i)-48; //48=0  
 			Sum=Sum+n;	 
 		}
 		System.out.println(Sum);

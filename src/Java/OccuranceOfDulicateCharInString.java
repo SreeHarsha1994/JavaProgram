@@ -12,7 +12,7 @@ public class OccuranceOfDulicateCharInString {
 		}
 		System.out.println(set);                       //    j a v
 		for(Character ch: set) {                        // set={jav} inside ch
-			// ch=j, //ch=a
+			// ch=j, //ch=a  
 			int count=0;                                       //0->1// 0->1//1->2
 			//Step2:compare each char of set with all the charactor of the given string
 			for(int i=0; i<s.length();i++) {      //0<4 // 1<4 // 2<4 // 3<4 // 4<4
